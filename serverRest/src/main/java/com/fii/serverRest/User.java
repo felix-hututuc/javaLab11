@@ -13,7 +13,7 @@ public class User {
 
     public User(String username) {
         this.username = username;
-         String messagePath = "E:\\Facultate\\Informatica_2020\\Semestrul_4\\Java\\javaLab10\\Server\\messageFiles\\msg" + username + ".txt";
+         String messagePath = "E:\\Facultate\\Informatica_2020\\Semestrul_4\\Java\\javaLab11\\serverRest\\messageFiles\\msg" + username + ".txt";
          messageFile = new File(messagePath);
     }
 
