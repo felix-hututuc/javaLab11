@@ -10,6 +10,6 @@ public class SpringTestingApplication {
 		SpringApplication.run(SpringTestingApplication.class, args);
 	}
 
-	//virtserver.swaggerhub.com/felix.hututuc/SpringTest/1.0.0
+	//https://app.swaggerhub.com/apis/felix.hututuc/SpringTest/1.0.0
 
 }
