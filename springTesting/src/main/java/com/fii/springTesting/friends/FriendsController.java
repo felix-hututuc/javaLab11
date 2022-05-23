@@ -36,4 +36,9 @@ public class FriendsController {
     public List<User> findMostPopular(@RequestParam Integer count) {
         return friendsService.findMostPopular(count);
     }
+
+    @GetMapping("/important")
+    public List<Integer> findMostImportant() {
+        return friendsService.getArticulationPoints();
+    }
 }
